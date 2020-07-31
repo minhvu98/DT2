@@ -140,7 +140,7 @@ var JotForm = {
         confirmClearForm: 'Are you sure you want to clear the form',
         lessThan: 'Your score should be less than or equal to',
         incompleteFields: 'There are incomplete required fields. Please complete them.',
-        required: 'This field is required.',
+        required: 'Không được bỏ trống',
         requireOne: 'At least one field required.',
         requireEveryRow: 'Every row is required.',
         requireEveryCell: 'Every cell is required.',

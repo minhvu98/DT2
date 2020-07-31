@@ -1,37 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Abel);
-
-    .form-label-left{
-        width:150px;
-    }
-    .form-line{
-        padding-top:12px;
-        padding-bottom:12px;
-    }
-    .form-label-right{
-        width:150px;
-    }
-    body, html{
-        margin:0;
-        padding:0;
-        background:rgba(39, 38, 38, 0.56);
-    }
-
-    .form-all{
-        margin:0px auto;
-        padding-top:0px;
-        width:580px;
-        color:rgb(255, 255, 255) !important;
-        font-family:'Roboto';
-        font-size:18px;
-    }
-    .form-radio-item label, .form-checkbox-item label, .form-grading-label, .form-header{
-        color: false;
-    }
-
-</style>
-
-<style type="text/css" id="form-designer-style">
-    /* Injected CSS Code */
 @import "https://fonts.googleapis.com/css?family=Roboto:light,lightitalic,normal,italic,bold,bolditalic";
 .form-all {
   font-family: "Roboto", sans-serif;
@@ -465,11 +432,11 @@
 }
 .supernova {
   background-image: none;
-  background-image: url(/image/file.jpg)
+  background-image: url("https://www.jotform.com/uploads/EltonCris/form_files/sunset-hair.jpg");
 }
 #stage {
   background-image: none;
-  background-image: url(/image/file.jpg)
+  background-image: url("https://www.jotform.com/uploads/EltonCris/form_files/sunset-hair.jpg");
 }
 /* | */
 .form-all {
@@ -484,8 +451,8 @@
   background-position: center top;
 }
 .form-line {
-  margin-top: 12px;
-  margin-bottom: 12px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .form-line {
   padding: 8px 36px;
@@ -661,7 +628,7 @@ h2 ~ .form-subHeader {
 }
 .form-buttons-wrapper {
   margin-left: 0 !important;
-  text-align: center;
+  text-align: center !important;
 }
 .form-label {
   margin-right: 0px;
@@ -790,7 +757,7 @@ li[data-type="control_image"] img {
     width: 20px;
   }
   img.form-image {
-    max-width: 100%;
+    width: 100%;
     height: auto;
   }
   .form-matrix-row-headers {
@@ -964,18 +931,6 @@ li[data-type="control_image"] img {
   }
   .form-collapse-table {
     margin: 0 5%;
-    display: block;
-    zoom: 1;
-    width: auto;
-  }
-  .form-collapse-table:before,
-  .form-collapse-table:after {
-    display: table;
-    content: '';
-    line-height: 0;
-  }
-  .form-collapse-table:after {
-    clear: both;
   }
   .fb-like-box {
     width: 98% !important;
@@ -997,60 +952,279 @@ li[data-type="control_image"] img {
 /* | */
 
 /*__INSPECT_SEPERATOR__*/
-.form-label.form-label-auto {
-    display : inline-block;
-    float : left;
-    text-align : left;
+@import url(https://fonts.googleapis.com/css?family=Abel);
+
+.jotform-form {
+    padding : 60px 0;
 }
 
-.form-textarea-limit>span {
-    display : block;
-}
-
-/*responsive full name*/
-[data-type="control_fullname"] .form-sub-label-container {
-    width : 50% !important;
-    margin : 0;
-    float : left;
+.form-all {
+    box-shadow : none !important;
+    border : none !important;
+    font-family : 'Abel', sans-serif;
+    position : relative;
+    color : #fff !important;
+    padding-bottom : 20px;
+    -moz-box-sizing : border-box;
+    -webkit-box-sizing : border-box;
     box-sizing : border-box;
 }
 
-[data-type="control_fullname"] .form-label + div .form-sub-label-container {
-    display : inline-block;
-    padding-right : 5px;
+.qq-upload-button {
+    font-family : 'Abel', sans-serif !important;
 }
 
-[data-type="control_fullname"] .form-label + div .form-sub-label-container + .form-sub-label-container {
-    margin-right : 0;
-    padding-right : 0;
-    padding-left : 5px;
+.form-label {
+    font-family : 'Abel', sans-serif;
 }
 
-[data-type="control_fullname"] .form-label + div .form-sub-label-container + .form-sub-label-container {
-    margin-right : 0;
-    padding-right : 0;
-    padding-left : 5px;
+.form-header-group {
+    border : none;
+    margin-bottom : 15px;
+    font-family : 'Abel', sans-serif;
 }
 
-[data-type="control_fullname"] .form-label + div .form-sub-label-container + .form-sub-label-container + .form-sub-label-container {
-    padding-left : 0;
-    padding-right : 5px;
+[data-type="control_textbox"] .form-textbox, 
+[data-type="control_fullname"] .form-textbox,
+[data-type="control_email"] .form-textbox,
+[data-type="control_textarea"] .form-textarea, 
+[data-type="control_dropdown"] .form-dropdown {
+    width : 100% !important;
 }
 
-[data-type="control_fullname"] .form-label + div .form-sub-label-container + .form-sub-label-container + .form-sub-label-container + .form-sub-label-container {
-    padding-left : 5px;
-    padding-right : 0;
-}
-
-[data-type="control_fullname"] .form-label + div .form-sub-label-container + .form-sub-label-container  + .form-sub-label-container + .form-sub-label-container + .form-sub-label-container {
-    padding-right : 5px;
-    padding-left : 0;
+.form-textbox, .form-textarea, .form-dropdown {
+    transition : all .5s ease-in-out;
+    -webkit-transition : all .5s ease-in-out;
+    -moz-transition : all .5s ease-in-out;
+    box-shadow : none;
+    outline : none;
+    box-sizing : border-box;
+    -webkit-box-sizing : border-box;
+    padding : 6px 8px;
+    border : none !important;
+    font-family : 'Abel', sans-serif;
 }
 
 #sublabel_prefix, #sublabel_first, #sublabel_middle {
-    /*margin-bottom : 10px;
-    */
+    margin-bottom : 10px;
 }
 
+.form-textbox:focus, .form-textarea:focus, .form-dropdown:focus {
+    box-shadow : none !important;
+    border : none !important;
+}
 
-    /* Injected CSS Code */
+.form-dropdown {
+    padding : 5px 8px;
+}
+
+.form-line {
+    width : 100% !important;
+    -webkit-box-sizing : border-box;
+    -moz-box-sizing : border-box;
+    box-sizing : border-box;
+}
+
+[data-type="control_fullname"] .form-sub-label-container {
+    width : 100%;
+}
+
+.form-input {
+    width : 64% !important;
+    max-width : none !important;
+}
+
+.form-label {
+    width : 34% !important;
+}
+
+.form-line-active {
+    color : inherit !important;
+}
+
+.form-label-top {
+    width : 100% !important;
+}
+
+.form-input-wide {
+    max-width : none !important;
+    display : inline-block;
+    width : 100%;
+}
+
+.form-submit-button {
+    outline : none;
+    box-shadow : none !important;
+    border : none !important;
+    text-shadow : none;
+    text-transform : uppercase;
+    transition : all .5s ease-in-out;
+    -webkit-transition : all .5s ease-in-out;
+    -moz-transition : all .5s ease-in-out;
+    font-family : 'Abel', sans-serif !important;
+}
+
+.form-submit-button:hover {
+    background : #E8AF7C !important;
+    box-shadow : none !important;
+}
+
+.form-line-error .form-error-message {
+    font-size : 14px;
+}
+
+.form-line-error {
+    box-shadow : none !important;
+}
+
+.form-line-error input:not(#coupon-input), .form-line-error select, .form-line-error textarea, .form-validation-error {
+    box-shadow : none !important;
+    border : none !important;
+}
+
+.form-html {
+    color : #FFF;
+}
+
+.form-address-city, .form-address-line, .form-address-postal, .form-address-state, .form-address-table, .form-address-table .form-sub-label-container, .form-address-table select, .form-input {
+    width : 100%;
+}
+
+input[name$="[city]"],
+input[name$="[postal]"] {
+    width : 90%;
+}
+
+@media screen and (max-width: 768px){
+    .form-all {
+        margin : 0 auto !important;
+    }
+
+    .qq-uploader {
+        width : 100% !important;
+    }
+
+    .qq-upload-button {
+        box-sizing : border-box;
+        -webkit-box-sizing : border-box;
+    }
+
+}
+
+@media screen and (max-width:480px){
+    .form-input {
+        width : 100% !important;
+    }
+
+    .form-label {
+        width : 100% !important;
+    }
+
+}
+
+.form-line-column .form-label {
+    width : 100% !important;
+}
+
+.form-label-top {
+    width : 100% !important;
+}
+
+/*fix form builder display*/
+#stage.form-all {
+    max-width : none;
+}
+
+/*responsive credit card*/
+#creditCardTable.form-address-table .form-textbox,
+hr + .form-address-table .form-textbox,
+#creditCardTable.form-address-table .form-dropdown,
+hr + .form-address-table .form-dropdown {
+    width : 100%;
+    font-size : medium;
+}
+
+#creditCardTable.form-address-table tbody > tr:first-child + tr td:first-child span,
+hr + .form-address-table tbody > tr:first-child + tr td:first-child span {
+    margin : 0;
+    padding-right : 6px;
+    box-sizing : border-box;
+    -webkit-box-sizing : border-box;
+}
+
+#creditCardTable.form-address-table tbody > tr:first-child + tr td:first-child + td span,
+hr + .form-address-table tbody > tr:first-child + tr td:first-child + td span {
+    margin : 0;
+    padding-left : 6px;
+    box-sizing : border-box;
+    -webkit-box-sizing : border-box;
+}
+
+#creditCardTable.form-address-table tbody > tr:first-child + tr +tr td:first-child span,
+hr + .form-address-table tbody > tr:first-child + tr +tr td:first-child span,
+#creditCardTable.form-address-table tbody > tr:first-child + tr +tr+tr td:first-child span,
+hr + .form-address-table tbody > tr:first-child + tr +tr+tr td:first-child span {
+    margin : 0;
+    padding-right : 6px;
+    width : 50%;
+    font-size : 0;
+    float : left;
+    box-sizing : border-box;
+    -webkit-box-sizing : border-box;
+}
+
+#creditCardTable.form-address-table tbody > tr:first-child + tr +tr td:first-child span + span,
+hr + .form-address-table tbody > tr:first-child + tr +tr td:first-child span + span,
+#creditCardTable.form-address-table tbody > tr:first-child + tr +tr+tr td:first-child span + span,
+hr + .form-address-table tbody > tr:first-child + tr +tr+tr td:first-child span + span {
+    margin : 0;
+    padding-right : 0;
+    padding-left : 6px;
+    width : 50%;
+    box-sizing : border-box;
+    -webkit-box-sizing : border-box;
+}
+
+.cc_ccv {
+    width : 100% !important;
+}
+
+#creditCardTable.form-address-table .form-sub-label,
+hr + .form-address-table .form-sub-label {
+    font-size : 11px;
+}
+
+/*fix for braintree cc styling*/
+[data-type="control_braintree"] .form-sub-label-container {
+    width : 100% !important;
+}
+
+.braintree-hosted-fields {
+    width : 100% !important;
+    box-sizing : border-box;
+    min-height : 24px;
+}
+
+/*cc fix city state, country */
+#creditCardTable.form-address-table td[width="50%"]>span:first-child,
+hr + .form-address-table td[width="50%"]>span:first-child {
+    box-sizing : border-box;
+    padding-right : 7px;
+}
+
+#creditCardTable.form-address-table td[width="50%"] + td >span:first-child,
+hr + .form-address-table td[width="50%"] + td >span:first-child {
+    box-sizing : border-box;
+    padding-left : 7px;
+}
+
+#creditCardTable.form-address-table td[width="50%"] + td[width="50%"] >span:first-child,
+hr + .form-address-table td[width="50%"] + td[width="50%"] >span:first-child {
+    box-sizing : border-box;
+    padding-right : 0;
+}
+
+.form-checkbox-item:not(#foo) label:after,
+.form-checkbox-item:not(#foo) label:before {
+    border-radius : 0;
+}
