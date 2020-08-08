@@ -465,11 +465,11 @@
 }
 .supernova {
   background-image: none;
-  background-image: url(/image/file.jpg)
+  background-image: url(../styles/file.jpg)
 }
 #stage {
   background-image: none;
-  background-image: url(/image/file.jpg)
+  background-image: url(../styles/file.jpg)
 }
 /* | */
 .form-all {
